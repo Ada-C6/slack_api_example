@@ -1,2 +1,30 @@
-<h1>Homepages#index</h1>
-<p>Find me in app/views/homepages/index.html.erb</p>
+<h1>Ada Channels</h1>
+
+<h2>Click on a link to send a chat to the specified channel.</h2>
+
+<section class="row">
+<% sections = ['<section class="small-12 medium-6 large-4  columns">',
+                '<section class="small-12 medium-6 large-4  columns">',
+                '<section class="small-12 medium-12 large-4  columns">'] %>
+
+<% counter = 0 %>
+<% max = @data.length / 3 + 1  %>
+<% @data.each do |data| %>
+  <% if counter % max == 0 %>
+    <%= sections[counter / max].html_safe %>
+    <ul>
+  <% end %>
+  <% counter += 1 %>
+  <li>   <%= link_to data.name, new_message_path(data.name, data.id)    %> </li>
+
+  <% if counter % max == 0 %>
+    </ul>
+    </section>
+  <% end %>
+<% end %>
+  <% if counter % max != 0 %>
+   </ul>
+ </section>
+<% end %>
+
+</section>
