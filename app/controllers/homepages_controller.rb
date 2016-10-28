@@ -20,12 +20,7 @@ class HomepagesController < ApplicationController
 
   def create
     result = SlackApiWrapper.sendmsg(params["channel"], params["message"])
-    if result["ok"]
-      resp = :created
-    else
-      resp = :service_unavailable
-    end
-    raise
-    redirect_to root_path, resp
+
+    redirect_to root_path(), resp
   end
 end
