@@ -6,6 +6,11 @@ require "#{Rails.root}/lib/channel.rb"
 class HomepagesController < ApplicationController
   def index
     @data = SlackApiWrapper.listchannels
+    if @data != nil && @data != []
+      render status: :created
+    else
+      render status: :service_unavailable
+    end
   end
 
   def new
