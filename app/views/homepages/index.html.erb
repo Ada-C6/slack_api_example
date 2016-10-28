@@ -1,7 +1,9 @@
 <h1>Ada Channels</h1>
 
 <h2>Click on a link to send a chat to the specified channel.</h2>
-
+<% if flash[:notice] %>
+  <h3 class="flash-notice"><%= flash[:notice] %></h3>
+<% end %>
 <section class="row">
 <% sections = ['<section class="small-12 medium-6 large-4  columns">',
                 '<section class="small-12 medium-6 large-4  columns">',
