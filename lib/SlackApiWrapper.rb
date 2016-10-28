@@ -42,8 +42,7 @@ class SlackApiWrapper
     if data["channels"]  # if the request was successful
       data["channels"].each do |channel|
 
-        wrapper = self.new channel["name"], channel["id"] #, purpose: channel["purpose"],
-        #                 is_archived: channel["is_archived"], members: channel["members"])
+        wrapper = Slack_Channel.new channel["name"], channel["id"] , purpose: channel["purpose"], is_archived: channel["is_archived"], members: channel["members"]
         channels << wrapper
       end
      return channels
