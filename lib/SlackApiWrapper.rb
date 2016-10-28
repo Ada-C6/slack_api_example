@@ -20,18 +20,8 @@ class SlackApiWrapper
   def self.sendmsg(channel, msg, token = nil)
     token = TOKEN if token == nil
 
-    url = BASE_URL + "chat.postMessage?" + "token=#{token}"
-    puts url
-    puts "Channel = #{channel}"
-    data = HTTParty.post(url,
-               body:  {
-                  "text" => "#{msg}",
-                  "channel" => "#{channel}",
-                  "username" => "CheezItBot",
-                  "icon_url" => "https://avatars.slack-edge.com/2016-06-01/47243492547_e3bd80a93a62bd63b8e6_72.png",
-                  "as_user" => "false"
-                },
-             :headers => { 'Content-Type' => 'application/x-www-form-urlencoded' })
+    url = BASE_URL + "chat.postMessage?" + "token=#{token}&" + "text=#{msg}&channel=#{channel}&username=CheezItBot"
+    data = HTTParty.get(url)
   end
 
   def self.listchannels(token = nil)
