@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'homepages/index'
+
+  get 'homepages/new'
+
+  get 'homepages/create'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
