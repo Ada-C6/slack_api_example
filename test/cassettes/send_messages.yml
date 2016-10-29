@@ -1,0 +1,69 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://slack.com/api/chat.postMessage?channel=test-api-parens&text=This%20is%20for%20a%20test&token=xoxp-38644938452-63019586116-97084956518-01e0f2d0f5f102e02d35f463a318ba76&username=CheezItBot
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '166'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Content-Security-Policy:
+      - referrer no-referrer;
+      Date:
+      - Sat, 29 Oct 2016 00:04:22 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - chat:write:bot,post
+      X-Content-Type-Options:
+      - nosniff
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      X-Slack-Backend:
+      - h
+      X-Slack-Req-Id:
+      - 1b5d8738-f1ff-46fd-95db-7a09e463a071
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 ce7051038dccfa573e55fb9d76f54ac3.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - 2bq6sFwKOcFC2yW6rPl0_PDyEKow2TDEGMIxdavuD0_fV6GExxYSyw==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":true,"channel":"C2V4F5W1Y","ts":"1477699462.000002","message":{"text":"This
+        is for a test","username":"CheezItBot","bot_id":"B2V2GD108","type":"message","subtype":"bot_message","ts":"1477699462.000002"}}'
+    http_version: 
+  recorded_at: Sat, 29 Oct 2016 00:04:22 GMT
+recorded_with: VCR 3.0.3

@@ -2,7 +2,7 @@ require "#{Rails.root}/lib/SlackApiWrapper.rb"
 
 class HomepagesController < ApplicationController
   def index
-    @data = SlackApiWrapper.listchannels
+    @data = SlackApiWrapper.list_channels
     if @data != nil && @data != []
       render status: :created
     else

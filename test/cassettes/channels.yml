@@ -1,0 +1,1203 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://slack.com/api/channels.list?exclude_archived=1&pretty=1&token=xoxp-38644938452-63019586116-97084956518-01e0f2d0f5f102e02d35f463a318ba76
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '3174'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Content-Security-Policy:
+      - referrer no-referrer;
+      Date:
+      - Sat, 29 Oct 2016 00:01:54 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - channels:read,read
+      X-Content-Type-Options:
+      - nosniff
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      X-Slack-Backend:
+      - h
+      X-Slack-Req-Id:
+      - 6e8cb66f-f68a-4242-a0d4-38c69cda7ec8
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 81480f1753fd7d7d6b4206ddcfbc23a8.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - mifhRgv4vFN9ig87cQVW2rSKL6FOgDdzNXJr88i4lpNmGsgWMVjegg==
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+            "ok": true,
+            "channels": [
+                {
+                    "id": "C14UN1PV2",
+                    "name": "ada-announcements",
+                    "is_channel": true,
+                    "created": 1461948067,
+                    "creator": "U14K14WFQ",
+                    "is_archived": false,
+                    "is_general": false,
+                    "is_member": true,
+                    "members": [
+                        "U14K14WFQ",
+                        "U14UYC5A8",
+                        "U1A0NHGF3",
+                        "U1A0W92LT",
+                        "U1A1A6CJG",
+                        "U1A1F3KLN",
+                        "U1A1G49L4",
+                        "U1A1HA8AY",
+                        "U1A1KMZ4G",
+                        "U1A1KRML0",
+                        "U1A1LGMJL",
+                        "U1A1LP2S3",
+                        "U1A1LP83H",
+                        "U1A1N5QHE",
+                        "U1A1NEYKZ",
+                        "U1A1U86N8",
+                        "U1A1V41M4",
+                        "U1A1VQBNV",
+                        "U1A1WSY4F",
+                        "U1A1Y8205",
+                        "U1A1YKDK3",
+                        "U1A20PA8J",
+                        "U1A22A1EW",
+                        "U1A22HVA9",
+                        "U1A23UX0W",
+                        "U1A25CARX",
+                        "U1A26472A",
+                        "U1A26SG4A",
+                        "U1A2ARXLJ",
+                        "U1A2B95BP",
+                        "U1A2CRAFM",
+                        "U1A2E9MDM",
+                        "U1A2GRBKL",
+                        "U1A2J4L15",
+                        "U1A2SASTH",
+                        "U1A2U9SMT",
+                        "U1A37NAA0",
+                        "U1A3HAKUM",
+                        "U1A3MBR9Q",
+                        "U1A44DT9D",
+                        "U1A6G920N",
+                        "U1A7QR22F",
+                        "U1A8E0UE4",
+                        "U1ACV3814",
+                        "U1ADEHZ4N",
+                        "U1AHDAW2Y",
+                        "U1APDN19T",
+                        "U1B734UJV",
+                        "U1BS0P3U0",
+                        "U1CSNMPJ8",
+                        "U1HBK18AJ",
+                        "U1SST7S4A",
+                        "U1V0KH83E",
+                        "U1Y9S4JN9",
+                        "U22MVAB9T",
+                        "U262FKE4D"
+                    ],
+                    "topic": {
+                        "value": "",
+                        "creator": "",
+                        "last_set": 0
+                    },
+                    "purpose": {
+                        "value": "For ada-wide announcements.",
+                        "creator": "U14K14WFQ",
+                        "last_set": 1461948067
+                    },
+                    "num_members": 56
+                },
+                {
+                    "id": "C2TVCHYAY",
+                    "name": "adiemaitenanceinsomni",
+                    "is_channel": true,
+                    "created": 1477411353,
+                    "creator": "U1A2ARXLJ",
+                    "is_archived": false,
+                    "is_general": false,
+                    "is_member": false,
+                    "members": [
+                        "U1A2ARXLJ",
+                        "U1A37NAA0"
+                    ],
+                    "topic": {
+                        "value": "",
+                        "creator": "",
+                        "last_set": 0
+                    },
+                    "purpose": {
+                        "value": "slack with adies who can't stay asleep",
+                        "creator": "U1A2ARXLJ",
+                        "last_set": 1477411355
+                    },
+                    "num_members": 2
+                },
+                {
+                    "id": "C2U08MM1T",
+                    "name": "adieonsetnsomnia",
+                    "is_channel": true,
+                    "created": 1477411320,
+                    "creator": "U1A2ARXLJ",
+                    "is_archived": false,
+                    "is_general": false,
+                    "is_member": false,
+                    "members": [
+                        "U1A22HVA9",
+                        "U1A2ARXLJ"
+                    ],
+                    "topic": {
+                        "value": "",
+                        "creator": "",
+                        "last_set": 0
+                    },
+                    "purpose": {
+                        "value": "slack with other Adies who can't fall asleep",
+                        "creator": "U1A2ARXLJ",
+                        "last_set": 1477411321
+                    },
+                    "num_members": 2
+                },
+                {
+                    "id": "C2M169BGB",
+                    "name": "affect-conf",
+                    "is_channel": true,
+                    "created": 1475950658,
+                    "creator": "U1A2CRAFM",
+                    "is_archived": false,
+                    "is_general": false,
+                    "is_member": false,
+                    "members": [
+                        "U14K14WFQ",
+                        "U1A1U86N8",
+                        "U1A2CRAFM",
+                        "U262FKE4D"
+                    ],
+                    "topic": {
+                        "value": "",
+                        "creator": "",
+                        "last_set": 0
+                    },
+                    "purpose": {
+                        "value": "Sharing info\/thoughts\/slides from Affect!",
+                        "creator": "U1A2CRAFM",
+                        "last_set": 1475950659
+                    },
+                    "num_members": 4
+                },
+                {
+                    "id": "C2HNCA7FS",
+                    "name": "c6-laptop-gift",
+                    "is_channel": true,
+                    "created": 1475176512,
+                    "creator": "U1A44DT9D",
+                    "is_archived": false,
+                    "is_general": false,
+                    "is_member": false,
+                    "members": [
+                        "U1A1KMZ4G",
+                        "U1A1LP2S3",
+                        "U1A1V41M4",
+                        "U1A1VQBNV",
+                        "U1A1Y8205",
+                        "U1A1YKDK3",
+                        "U1A22A1EW",
+                        "U1A22HVA9",
+                        "U1A253SDT",
+                        "U1A2CRAFM",
+                        "U1A2J4L15",
+                        "U1A44DT9D",
+                        "U1A6G920N",
+                        "U1A7QR22F",
+                        "U1A8E0UE4",
+                        "U1BS0P3U0"
+                    ],
+                    "topic": {
+                        "value": "",
+                        "creator": "",
+                        "last_set": 0
+                    },
+                    "purpose": {
+                        "value": "Give back to the community by helping future Adies!",
+                        "creator": "U1A44DT9D",
+                        "last_set": 1475176513
+                    },
+                    "num_members": 16
+                },
+                {
+                    "id": "C2K9SFEUU",
+                    "name": "climbing",
+                    "is_channel": true,
+                    "created": 1475611207,
+                    "creator": "U1A1LP2S3",
+                    "is_archived": false,
+                    "is_general": false,
+                    "is_member": false,
+                    "members": [
+                        "U1A1LP2S3",
+                        "U1A25CARX",
+                        "U1A26SG4A",
+                        "U1A2E9MDM",
+                        "U1A2SASTH",
+                        "U1A7QR22F",
+                        "U1HBK18AJ"
+                    ],
+                    "topic": {
+                        "value": "",
+                        "creator": "",
+                        "last_set": 0
+                    },
+                    "purpose": {
+                        "value": "organizing climbing trips and talking about climbing!",
+                        "creator": "U1A1LP2S3",
+                        "last_set": 1475611208
+                    },
+                    "num_members": 7
+                },
+                {
+                    "id": "C20SFPD0R",
+                    "name": "cooking",
+                    "is_channel": true,
+                    "created": 1471010237,
+                    "creator": "U1A2CRAFM",
+                    "is_archived": false,
+                    "is_general": false,
+                    "is_member": false,
+                    "members": [
+                        "U1A1F3KLN",
+                        "U1A1KRML0",
+                        "U1A1LGMJL",
+                        "U1A1LP2S3",
+                        "U1A1NEYKZ",
+                        "U1A1YKDK3",
+                        "U1A2CRAFM",
+                        "U1A2E9MDM",
+                        "U1A2GRBKL",
+                        "U1A2U9SMT",
+                        "U1A7QR22F",
+                        "U1A8E0UE4",
+                        "U1AHDAW2Y"
+                    ],
+                    "topic": {
+                        "value": "",
+                        "creator": "",
+                        "last_set": 0
+                    },
+                    "purpose": {
+                        "value": "Share about cooking, meal-planning, etc!",
+                        "creator": "U1A2CRAFM",
+                        "last_set": 1471010238
+                    },
+                    "num_members": 13
+                },
+                {
+                    "id": "C24MYBFQU",
+                    "name": "cs-fundamentals",
+                    "is_channel": true,
+                    "created": 1472083101,
+                    "creator": "U14K14WFQ",
+                    "is_archived": false,
+                    "is_general": false,
+                    "is_member": true,
+                    "members": [
+                        "U14K14WFQ",
+                        "U1A0W92LT",
+                        "U1A1A6CJG",
+                        "U1A1F3KLN",
+                        "U1A1G49L4",
+                        "U1A1HA8AY",
+                        "U1A1KMZ4G",
+                        "U1A1KRML0",
+                        "U1A1LGMJL",
+                        "U1A1LP2S3",
+                        "U1A1LP83H",
+                        "U1A1N5QHE",
+                        "U1A1NEYKZ",
+                        "U1A1U86N8",
+                        "U1A1V41M4",
+                        "U1A1VQBNV",
+                        "U1A1WSY4F",
+                        "U1A1Y8205",
+                        "U1A1YKDK3",
+                        "U1A20PA8J",
+                        "U1A22A1EW",
+                        "U1A22HVA9",
+                        "U1A23UX0W",
+                        "U1A253SDT",
+                        "U1A25CARX",
+                        "U1A26472A",
+                        "U1A26SG4A",
+                        "U1A2ARXLJ",
+                        "U1A2B95BP",
+                        "U1A2CRAFM",
+                        "U1A2E9MDM",
+                        "U1A2GRBKL",
+                        "U1A2J4L15",
+                        "U1A2SASTH",
+                        "U1A2U9SMT",
+                        "U1A37NAA0",
+                        "U1A3HAKUM",
+                        "U1A3MBR9Q",
+                        "U1A44DT9D",
+                        "U1A6G920N",
+                        "U1A7QR22F",
+                        "U1A8E0UE4",
+                        "U1ACV3814",
+                        "U1ADEHZ4N",
+                        "U1AHDAW2Y",
+                        "U1APDN19T",
+                        "U1B734UJV",
+                        "U1BS0P3U0",
+                        "U1CSNMPJ8",
+                        "U1HBK18AJ",
+                        "U1V0KH83E",
+                        "U1Y9S4JN9",
+                        "U22MVAB9T",
+                        "U262FKE4D"
+                    ],
+                    "topic": {
+                        "value": "",
+                        "creator": "",
+                        "last_set": 0
+                    },
+                    "purpose": {
+                        "value": "Chat about CS Fundamentals Curriculum",
+                        "creator": "U14K14WFQ",
+                        "last_set": 1472083280
+                    },
+                    "num_members": 54
+                },
+                {
+                    "id": "C28FZ0T2N",
+                    "name": "cuteoverload",
+                    "is_channel": true,
+                    "created": 1473142783,
+                    "creator": "U1A1NEYKZ",
+                    "is_archived": false,
+                    "is_general": false,
+                    "is_member": false,
+                    "members": [
+                        "U1A1F3KLN",
+                        "U1A1KRML0",
+                        "U1A1LP2S3",
+                        "U1A1NEYKZ",
+                        "U1A1YKDK3",
+                        "U1A2ARXLJ",
+                        "U1A2CRAFM",
+                        "U1A2GRBKL",
+                        "U1AHDAW2Y",
+                        "U1HBK18AJ"
+                    ],
+                    "topic": {
+                        "value": "",
+                        "creator": "",
+                        "last_set": 0
+                    },
+                    "purpose": {
+                        "value": "The cute, bring it! (A place for cat pictures and other such awesome.)",
+                        "creator": "U1A1NEYKZ",
+                        "last_set": 1473142783
+                    },
+                    "num_members": 10
+                },
+                {
+                    "id": "C20KVKTME",
+                    "name": "eastside_meetups",
+                    "is_channel": true,
+                    "created": 1470950818,
+                    "creator": "U1A2B95BP",
+                    "is_archived": false,
+                    "is_general": false,
+                    "is_member": false,
+                    "members": [
+                        "U1A1LGMJL",
+                        "U1A26472A",
+                        "U1A2B95BP",
+                        "U1A3HAKUM",
+                        "U1ACV3814",
+                        "U1ADEHZ4N",
+                        "U1B734UJV",
+                        "U1BS0P3U0",
+                        "U1HBK18AJ"
+                    ],
+                    "topic": {
+                        "value": "",
+                        "creator": "",
+                        "last_set": 0
+                    },
+                    "purpose": {
+                        "value": "for eastside classmates to connect and hang out.",
+                        "creator": "U1A2B95BP",
+                        "last_set": 1470950818
+                    },
+                    "num_members": 9
+                },
+                {
+                    "id": "C1WQVJGJF",
+                    "name": "escaperoom",
+                    "is_channel": true,
+                    "created": 1470018672,
+                    "creator": "U1A1F3KLN",
+                    "is_archived": false,
+                    "is_general": false,
+                    "is_member": false,
+                    "members": [
+                        "U1A1F3KLN",
+                        "U1A1KMZ4G",
+                        "U1A1KRML0",
+                        "U1A1LP2S3",
+                        "U1A22HVA9",
+                        "U1A2E9MDM",
+                        "U1A2SASTH",
+                        "U1A3MBR9Q"
+                    ],
+                    "topic": {
+                        "value": "",
+                        "creator": "",
+                        "last_set": 0
+                    },
+                    "purpose": {
+                        "value": "Organizing at least one trip to a local Escape Room!",
+                        "creator": "U1A1F3KLN",
+                        "last_set": 1470018795
+                    },
+                    "num_members": 8
+                },
+                {
+                    "id": "C14HT63S7",
+                    "name": "general",
+                    "is_channel": true,
+                    "created": 1461863745,
+                    "creator": "U14K14WFQ",
+                    "is_archived": false,
+                    "is_general": true,
+                    "is_member": true,
+                    "members": [
+                        "U14K14WFQ",
+                        "U14UYC5A8",
+                        "U1A0NHGF3",
+                        "U1A0W92LT",
+                        "U1A1A6CJG",
+                        "U1A1F3KLN",
+                        "U1A1G49L4",
+                        "U1A1HA8AY",
+                        "U1A1KMZ4G",
+                        "U1A1KRML0",
+                        "U1A1LGMJL",
+                        "U1A1LP2S3",
+                        "U1A1LP83H",
+                        "U1A1N5QHE",
+                        "U1A1NEYKZ",
+                        "U1A1U86N8",
+                        "U1A1V41M4",
+                        "U1A1VQBNV",
+                        "U1A1WSY4F",
+                        "U1A1XJY1Y",
+                        "U1A1Y8205",
+                        "U1A1YKDK3",
+                        "U1A20PA8J",
+                        "U1A22A1EW",
+                        "U1A22HVA9",
+                        "U1A23UX0W",
+                        "U1A253SDT",
+                        "U1A25CARX",
+                        "U1A26472A",
+                        "U1A26SG4A",
+                        "U1A2ARXLJ",
+                        "U1A2B95BP",
+                        "U1A2CRAFM",
+                        "U1A2E9MDM",
+                        "U1A2GRBKL",
+                        "U1A2J4L15",
+                        "U1A2SASTH",
+                        "U1A2U9SMT",
+                        "U1A37NAA0",
+                        "U1A3HAKUM",
+                        "U1A3MBR9Q",
+                        "U1A44DT9D",
+                        "U1A6G920N",
+                        "U1A7QR22F",
+                        "U1A8E0UE4",
+                        "U1ACV3814",
+                        "U1ADEHZ4N",
+                        "U1AHDAW2Y",
+                        "U1APDN19T",
+                        "U1B734UJV",
+                        "U1BS0P3U0",
+                        "U1CSNMPJ8",
+                        "U1HBK18AJ",
+                        "U1SST7S4A",
+                        "U1V0KH83E",
+                        "U1Y9S4JN9",
+                        "U22MVAB9T",
+                        "U22PUMTGX",
+                        "U262FKE4D"
+                    ],
+                    "topic": {
+                        "value": "Company-wide announcements and work-based matters",
+                        "creator": "",
+                        "last_set": 0
+                    },
+                    "purpose": {
+                        "value": "This channel is for team-wide communication and announcements. All team members are in this channel.",
+                        "creator": "",
+                        "last_set": 0
+                    },
+                    "num_members": 58
+                },
+                {
+                    "id": "C1U3MJKBQ",
+                    "name": "jumpstart-live",
+                    "is_channel": true,
+                    "created": 1469153131,
+                    "creator": "U14K14WFQ",
+                    "is_archived": false,
+                    "is_general": false,
+                    "is_member": true,
+                    "members": [
+                        "U14K14WFQ",
+                        "U1A1A6CJG",
+                        "U1A1F3KLN",
+                        "U1A1KRML0",
+                        "U1A1WSY4F",
+                        "U1A23UX0W",
+                        "U1A2B95BP",
+                        "U1A2CRAFM",
+                        "U1A2E9MDM",
+                        "U1A8E0UE4",
+                        "U1AHDAW2Y",
+                        "U1APDN19T",
+                        "U1B734UJV",
+                        "U1BS0P3U0",
+                        "U1CSNMPJ8",
+                        "U1V0KH83E"
+                    ],
+                    "topic": {
+                        "value": "",
+                        "creator": "",
+                        "last_set": 0
+                    },
+                    "purpose": {
+                        "value": "",
+                        "creator": "",
+                        "last_set": 0
+                    },
+                    "num_members": 16
+                },
+                {
+                    "id": "C24AFSTJ5",
+                    "name": "partyplanningcmitee",
+                    "is_channel": true,
+                    "created": 1472003701,
+                    "creator": "U1A2J4L15",
+                    "is_archived": false,
+                    "is_general": false,
+                    "is_member": false,
+                    "members": [
+                        "U1A1F3KLN",
+                        "U1A1NEYKZ",
+                        "U1A1YKDK3",
+                        "U1A253SDT",
+                        "U1A2GRBKL",
+                        "U1A2J4L15",
+                        "U1A2U9SMT",
+                        "U1A3MBR9Q",
+                        "U1APDN19T"
+                    ],
+                    "topic": {
+                        "value": "",
+                        "creator": "",
+                        "last_set": 0
+                    },
+                    "purpose": {
+                        "value": "Party Planning Committee-slash-\nCommittee to Plan Parties",
+                        "creator": "U1A2J4L15",
+                        "last_set": 1472003702
+                    },
+                    "num_members": 9
+                },
+                {
+                    "id": "C1VKKHTTM",
+                    "name": "pragmaticbookclub",
+                    "is_channel": true,
+                    "created": 1469637293,
+                    "creator": "U1A1U86N8",
+                    "is_archived": false,
+                    "is_general": false,
+                    "is_member": false,
+                    "members": [
+                        "U1A1F3KLN",
+                        "U1A1G49L4",
+                        "U1A1KRML0",
+                        "U1A1U86N8",
+                        "U1A253SDT",
+                        "U1A26472A",
+                        "U1A2B95BP",
+                        "U1A2CRAFM",
+                        "U1A2E9MDM",
+                        "U1ACV3814"
+                    ],
+                    "topic": {
+                        "value": "",
+                        "creator": "",
+                        "last_set": 0
+                    },
+                    "purpose": {
+                        "value": "For those interested in starting a book club around the book \u201cThe Pragmatic Programmer\"",
+                        "creator": "U1A1U86N8",
+                        "last_set": 1469637293
+                    },
+                    "num_members": 10
+                },
+                {
+                    "id": "C1LP6TJ9H",
+                    "name": "pre-ada-homework",
+                    "is_channel": true,
+                    "created": 1467075530,
+                    "creator": "U1A1N5QHE",
+                    "is_archived": false,
+                    "is_general": false,
+                    "is_member": true,
+                    "members": [
+                        "U14K14WFQ",
+                        "U1A1A6CJG",
+                        "U1A1F3KLN",
+                        "U1A1KRML0",
+                        "U1A1V41M4",
+                        "U1A253SDT",
+                        "U1A25CARX",
+                        "U1A2B95BP",
+                        "U1A2CRAFM",
+                        "U1A2E9MDM",
+                        "U1A2SASTH",
+                        "U1A3MBR9Q",
+                        "U1ACV3814",
+                        "U1ADEHZ4N",
+                        "U1AHDAW2Y",
+                        "U1HBK18AJ",
+                        "U1SST7S4A",
+                        "U1V0KH83E",
+                        "U1Y9S4JN9"
+                    ],
+                    "topic": {
+                        "value": "",
+                        "creator": "",
+                        "last_set": 0
+                    },
+                    "purpose": {
+                        "value": "self-explanatory",
+                        "creator": "U1A1N5QHE",
+                        "last_set": 1467075531
+                    },
+                    "num_members": 19
+                },
+                {
+                    "id": "C22A9LP9A",
+                    "name": "rainy-day-memories",
+                    "is_channel": true,
+                    "created": 1471462265,
+                    "creator": "U1A1KMZ4G",
+                    "is_archived": false,
+                    "is_general": false,
+                    "is_member": false,
+                    "members": [
+                        "U1A1F3KLN",
+                        "U1A1KMZ4G",
+                        "U1A1KRML0",
+                        "U1A1NEYKZ",
+                        "U1A1Y8205",
+                        "U1A1YKDK3",
+                        "U1A2CRAFM",
+                        "U1A2E9MDM",
+                        "U1A2GRBKL",
+                        "U1A7QR22F"
+                    ],
+                    "topic": {
+                        "value": "",
+                        "creator": "",
+                        "last_set": 0
+                    },
+                    "purpose": {
+                        "value": "Pictures from the good days",
+                        "creator": "U1A1KMZ4G",
+                        "last_set": 1471462266
+                    },
+                    "num_members": 10
+                },
+                {
+                    "id": "C14K8TJHM",
+                    "name": "random",
+                    "is_channel": true,
+                    "created": 1461863745,
+                    "creator": "U14K14WFQ",
+                    "is_archived": false,
+                    "is_general": false,
+                    "is_member": true,
+                    "members": [
+                        "U14K14WFQ",
+                        "U14UYC5A8",
+                        "U1A0NHGF3",
+                        "U1A0W92LT",
+                        "U1A1A6CJG",
+                        "U1A1F3KLN",
+                        "U1A1G49L4",
+                        "U1A1HA8AY",
+                        "U1A1KMZ4G",
+                        "U1A1KRML0",
+                        "U1A1LGMJL",
+                        "U1A1LP2S3",
+                        "U1A1LP83H",
+                        "U1A1N5QHE",
+                        "U1A1NEYKZ",
+                        "U1A1U86N8",
+                        "U1A1V41M4",
+                        "U1A1VQBNV",
+                        "U1A1WSY4F",
+                        "U1A1XJY1Y",
+                        "U1A1Y8205",
+                        "U1A1YKDK3",
+                        "U1A20PA8J",
+                        "U1A22A1EW",
+                        "U1A22HVA9",
+                        "U1A23UX0W",
+                        "U1A253SDT",
+                        "U1A25CARX",
+                        "U1A26472A",
+                        "U1A26SG4A",
+                        "U1A2ARXLJ",
+                        "U1A2B95BP",
+                        "U1A2CRAFM",
+                        "U1A2E9MDM",
+                        "U1A2GRBKL",
+                        "U1A2J4L15",
+                        "U1A2SASTH",
+                        "U1A2U9SMT",
+                        "U1A37NAA0",
+                        "U1A3HAKUM",
+                        "U1A3MBR9Q",
+                        "U1A44DT9D",
+                        "U1A6G920N",
+                        "U1A7QR22F",
+                        "U1A8E0UE4",
+                        "U1ACV3814",
+                        "U1ADEHZ4N",
+                        "U1AHDAW2Y",
+                        "U1APDN19T",
+                        "U1B734UJV",
+                        "U1BS0P3U0",
+                        "U1CSNMPJ8",
+                        "U1HBK18AJ",
+                        "U1SST7S4A",
+                        "U1V0KH83E",
+                        "U1Y9S4JN9",
+                        "U22MVAB9T",
+                        "U22PUMTGX",
+                        "U262FKE4D"
+                    ],
+                    "topic": {
+                        "value": "Non-work banter and water cooler conversation",
+                        "creator": "",
+                        "last_set": 0
+                    },
+                    "purpose": {
+                        "value": "A place for non-work-related flimflam, faffing, hodge-podge or jibber-jabber you'd prefer to keep out of more focused work-related channels.",
+                        "creator": "",
+                        "last_set": 0
+                    },
+                    "num_members": 58
+                },
+                {
+                    "id": "C1A1AE1L4",
+                    "name": "relocation-help",
+                    "is_channel": true,
+                    "created": 1463606366,
+                    "creator": "U14K14WFQ",
+                    "is_archived": false,
+                    "is_general": false,
+                    "is_member": false,
+                    "members": [
+                        "U14K14WFQ",
+                        "U14UYC5A8",
+                        "U1A0W92LT",
+                        "U1A1F3KLN",
+                        "U1A1KRML0",
+                        "U1A1LGMJL",
+                        "U1A1LP2S3",
+                        "U1A1U86N8",
+                        "U1A1XJY1Y",
+                        "U1A1Y8205",
+                        "U1A20PA8J",
+                        "U1A23UX0W",
+                        "U1A25CARX",
+                        "U1A2E9MDM",
+                        "U1A2SASTH",
+                        "U1A3MBR9Q",
+                        "U1A6G920N",
+                        "U1ADEHZ4N",
+                        "U1AHDAW2Y",
+                        "U1B734UJV"
+                    ],
+                    "topic": {
+                        "value": "",
+                        "creator": "",
+                        "last_set": 0
+                    },
+                    "purpose": {
+                        "value": "Help our transplants figure out Seattle!",
+                        "creator": "U14K14WFQ",
+                        "last_set": 1463606367
+                    },
+                    "num_members": 19
+                },
+                {
+                    "id": "C2DRJQREX",
+                    "name": "resource-gathering",
+                    "is_channel": true,
+                    "created": 1474403116,
+                    "creator": "U1A37NAA0",
+                    "is_archived": false,
+                    "is_general": false,
+                    "is_member": false,
+                    "members": [
+                        "U1A0W92LT",
+                        "U1A1F3KLN",
+                        "U1A1KMZ4G",
+                        "U1A1KRML0",
+                        "U1A1LGMJL",
+                        "U1A1LP83H",
+                        "U1A1NEYKZ",
+                        "U1A1U86N8",
+                        "U1A1VQBNV",
+                        "U1A1YKDK3",
+                        "U1A20PA8J",
+                        "U1A253SDT",
+                        "U1A26472A",
+                        "U1A26SG4A",
+                        "U1A2ARXLJ",
+                        "U1A2B95BP",
+                        "U1A2CRAFM",
+                        "U1A2J4L15",
+                        "U1A2SASTH",
+                        "U1A2U9SMT",
+                        "U1A37NAA0",
+                        "U1A3HAKUM",
+                        "U1A3MBR9Q",
+                        "U1A44DT9D",
+                        "U1APDN19T"
+                    ],
+                    "topic": {
+                        "value": "",
+                        "creator": "",
+                        "last_set": 0
+                    },
+                    "purpose": {
+                        "value": "Create a Google doc with all the resources we've had so far. Please help me!",
+                        "creator": "U1A37NAA0",
+                        "last_set": 1474403117
+                    },
+                    "num_members": 25
+                },
+                {
+                    "id": "C27CY2H7D",
+                    "name": "running",
+                    "is_channel": true,
+                    "created": 1472760600,
+                    "creator": "U1A1N5QHE",
+                    "is_archived": false,
+                    "is_general": false,
+                    "is_member": false,
+                    "members": [
+                        "U1A1N5QHE",
+                        "U1A2B95BP",
+                        "U1A7QR22F",
+                        "U1A8E0UE4",
+                        "U1ACV3814"
+                    ],
+                    "topic": {
+                        "value": "",
+                        "creator": "",
+                        "last_set": 0
+                    },
+                    "purpose": {
+                        "value": "",
+                        "creator": "",
+                        "last_set": 0
+                    },
+                    "num_members": 5
+                },
+                {
+                    "id": "C1PPLERB3",
+                    "name": "saychiz",
+                    "is_channel": true,
+                    "created": 1467920015,
+                    "creator": "U1HBK18AJ",
+                    "is_archived": false,
+                    "is_general": false,
+                    "is_member": false,
+                    "members": [
+                        "U1A253SDT",
+                        "U1A25CARX",
+                        "U1A2B95BP",
+                        "U1HBK18AJ"
+                    ],
+                    "topic": {
+                        "value": "",
+                        "creator": "",
+                        "last_set": 0
+                    },
+                    "purpose": {
+                        "value": "Saychiz practice workshop for Chicktech",
+                        "creator": "U1HBK18AJ",
+                        "last_set": 1467920015
+                    },
+                    "num_members": 4
+                },
+                {
+                    "id": "C1CSHM072",
+                    "name": "seattlemeetups",
+                    "is_channel": true,
+                    "created": 1464678637,
+                    "creator": "U1A44DT9D",
+                    "is_archived": false,
+                    "is_general": false,
+                    "is_member": false,
+                    "members": [
+                        "U1A0W92LT",
+                        "U1A1F3KLN",
+                        "U1A1G49L4",
+                        "U1A1KMZ4G",
+                        "U1A1KRML0",
+                        "U1A1LGMJL",
+                        "U1A1LP2S3",
+                        "U1A1LP83H",
+                        "U1A1NEYKZ",
+                        "U1A1U86N8",
+                        "U1A1V41M4",
+                        "U1A1VQBNV",
+                        "U1A1WSY4F",
+                        "U1A1Y8205",
+                        "U1A1YKDK3",
+                        "U1A22A1EW",
+                        "U1A22HVA9",
+                        "U1A23UX0W",
+                        "U1A253SDT",
+                        "U1A25CARX",
+                        "U1A26472A",
+                        "U1A26SG4A",
+                        "U1A2ARXLJ",
+                        "U1A2B95BP",
+                        "U1A2CRAFM",
+                        "U1A2E9MDM",
+                        "U1A2GRBKL",
+                        "U1A2SASTH",
+                        "U1A2U9SMT",
+                        "U1A37NAA0",
+                        "U1A3HAKUM",
+                        "U1A3MBR9Q",
+                        "U1A44DT9D",
+                        "U1A6G920N",
+                        "U1A7QR22F",
+                        "U1A8E0UE4",
+                        "U1ACV3814",
+                        "U1AHDAW2Y",
+                        "U1APDN19T",
+                        "U1BS0P3U0",
+                        "U1HBK18AJ",
+                        "U1SST7S4A"
+                    ],
+                    "topic": {
+                        "value": "",
+                        "creator": "",
+                        "last_set": 0
+                    },
+                    "purpose": {
+                        "value": "A place to organize meetups in the Seattle area!",
+                        "creator": "U1A44DT9D",
+                        "last_set": 1464678638
+                    },
+                    "num_members": 42
+                },
+                {
+                    "id": "C22AJVC4Q",
+                    "name": "team_gold",
+                    "is_channel": true,
+                    "created": 1471463207,
+                    "creator": "U1A1U86N8",
+                    "is_archived": false,
+                    "is_general": false,
+                    "is_member": false,
+                    "members": [
+                        "U1A1U86N8",
+                        "U1A3MBR9Q",
+                        "U1CSNMPJ8"
+                    ],
+                    "topic": {
+                        "value": "",
+                        "creator": "",
+                        "last_set": 0
+                    },
+                    "purpose": {
+                        "value": "to work on fancying Dragon",
+                        "creator": "U1A1U86N8",
+                        "last_set": 1471463208
+                    },
+                    "num_members": 3
+                },
+                {
+                    "id": "C1ZD3TD35",
+                    "name": "tech-events",
+                    "is_channel": true,
+                    "created": 1470706276,
+                    "creator": "U1A1NEYKZ",
+                    "is_archived": false,
+                    "is_general": false,
+                    "is_member": false,
+                    "members": [
+                        "U1A0W92LT",
+                        "U1A1F3KLN",
+                        "U1A1G49L4",
+                        "U1A1HA8AY",
+                        "U1A1KMZ4G",
+                        "U1A1KRML0",
+                        "U1A1LGMJL",
+                        "U1A1LP2S3",
+                        "U1A1LP83H",
+                        "U1A1N5QHE",
+                        "U1A1NEYKZ",
+                        "U1A1U86N8",
+                        "U1A1V41M4",
+                        "U1A1VQBNV",
+                        "U1A1WSY4F",
+                        "U1A1Y8205",
+                        "U1A1YKDK3",
+                        "U1A20PA8J",
+                        "U1A22A1EW",
+                        "U1A22HVA9",
+                        "U1A25CARX",
+                        "U1A26472A",
+                        "U1A26SG4A",
+                        "U1A2ARXLJ",
+                        "U1A2B95BP",
+                        "U1A2CRAFM",
+                        "U1A2E9MDM",
+                        "U1A2J4L15",
+                        "U1A2SASTH",
+                        "U1A2U9SMT",
+                        "U1A37NAA0",
+                        "U1A3HAKUM",
+                        "U1A3MBR9Q",
+                        "U1A44DT9D",
+                        "U1A6G920N",
+                        "U1A7QR22F",
+                        "U1A8E0UE4",
+                        "U1ACV3814",
+                        "U1AHDAW2Y",
+                        "U1APDN19T",
+                        "U1B734UJV",
+                        "U1BS0P3U0",
+                        "U1HBK18AJ",
+                        "U262FKE4D"
+                    ],
+                    "topic": {
+                        "value": "",
+                        "creator": "",
+                        "last_set": 0
+                    },
+                    "purpose": {
+                        "value": "Channel to share upcoming tech events!",
+                        "creator": "U1A1NEYKZ",
+                        "last_set": 1470706277
+                    },
+                    "num_members": 44
+                },
+                {
+                    "id": "C2V4RG11C",
+                    "name": "test-api-brackets",
+                    "is_channel": true,
+                    "created": 1477589339,
+                    "creator": "U22MVAB9T",
+                    "is_archived": false,
+                    "is_general": false,
+                    "is_member": false,
+                    "members": [
+                        "U22MVAB9T"
+                    ],
+                    "topic": {
+                        "value": "",
+                        "creator": "",
+                        "last_set": 0
+                    },
+                    "purpose": {
+                        "value": "",
+                        "creator": "",
+                        "last_set": 0
+                    },
+                    "num_members": 1
+                },
+                {
+                    "id": "C2V4F5W1Y",
+                    "name": "test-api-parens",
+                    "is_channel": true,
+                    "created": 1477586537,
+                    "creator": "U1V0KH83E",
+                    "is_archived": false,
+                    "is_general": false,
+                    "is_member": true,
+                    "members": [
+                        "U1V0KH83E",
+                        "U1Y9S4JN9"
+                    ],
+                    "topic": {
+                        "value": "",
+                        "creator": "",
+                        "last_set": 0
+                    },
+                    "purpose": {
+                        "value": "This Channel is for testing the Slack API",
+                        "creator": "U1V0KH83E",
+                        "last_set": 1477586538
+                    },
+                    "num_members": 2
+                }
+            ]
+        }
+    http_version: 
+  recorded_at: Sat, 29 Oct 2016 00:01:54 GMT
+recorded_with: VCR 3.0.3

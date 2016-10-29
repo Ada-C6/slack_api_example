@@ -6,6 +6,8 @@ gem 'jquery-turbolinks'
 
 gem 'faker'
 
+gem 'minitest-reporters'
+
 gem 'awesome_print'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -50,6 +52,13 @@ group :development, :test do
   gem 'byebug'
   gem 'dotenv-rails'
   gem 'better_errors'
+  gem 'pry'
+end
+
+group :test do
+  gem 'webmock'
+  gem 'minitest-vcr'
+  gem 'webmock'
 end
 
 group :development do

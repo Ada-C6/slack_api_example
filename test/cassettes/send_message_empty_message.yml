@@ -1,0 +1,68 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://slack.com/api/chat.postMessage?channel=test-api-parens&text=&token=xoxp-38644938452-63019586116-97084956518-01e0f2d0f5f102e02d35f463a318ba76&username=CheezItBot
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '50'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Content-Security-Policy:
+      - referrer no-referrer;
+      Date:
+      - Sat, 29 Oct 2016 00:44:35 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - chat:write:bot,post
+      X-Content-Type-Options:
+      - nosniff
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      X-Slack-Backend:
+      - h
+      X-Slack-Req-Id:
+      - a12e0537-322c-4cb2-abc2-eea838325704
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 334110f29a17ea138a2af443c18e1494.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - 3XwxyhbjrGvwMJlc-wiWpSiZjhsRXowbd8Pmech8fxQAhBWXPHx-Ig==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":false,"error":"no_text"}'
+    http_version: 
+  recorded_at: Sat, 29 Oct 2016 00:44:35 GMT
+recorded_with: VCR 3.0.3
