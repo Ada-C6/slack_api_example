@@ -1,4 +1,4 @@
-require "#{Rails.root}/lib/slack_api_wrapper.rb"
+require "slack_api_wrapper"
 
 class HomepagesController < ApplicationController
   def index
