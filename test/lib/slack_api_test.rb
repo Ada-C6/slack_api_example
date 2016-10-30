@@ -1,5 +1,5 @@
 require 'test_helper'
-require 'SlackApiWrapper'
+require 'slack_api_wrapper'
 require 'channel'
 
 class SlackApiTest < ActionController::TestCase
