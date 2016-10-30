@@ -1,4 +1,4 @@
-require "#{Rails.root}/lib/SlackApiWrapper.rb"
+require "#{Rails.root}/lib/slack_api_wrapper.rb"
 
 class HomepagesController < ApplicationController
   def index
@@ -16,7 +16,7 @@ class HomepagesController < ApplicationController
   end
 
   def create
-    result = SlackApiWrapper.sendmsg(params["channel"], params["message"])
+    result = SlackApiWrapper.send_message(params["channel"], params["message"])
     if result["ok"]
       flash[:notice] = "Message Sent"
     else
