@@ -1,4 +1,4 @@
-require "#{Rails.root}/lib/SlackApiWrapper.rb"
+require "#{Rails.root}/lib/slack_api_wrapper.rb"
 require "#{Rails.root}/lib/channel.rb"
 
 
