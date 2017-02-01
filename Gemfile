@@ -10,6 +10,9 @@ gem 'minitest-reporters'
 
 gem 'awesome_print'
 
+# For Foundation CSS 
+gem 'foundation-rails'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.0.1'
 # Use sqlite3 as the database for Active Record
@@ -44,7 +47,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # API GEMS
 gem 'httparty'
 
-gem 'foundation-rails'
+#gem 'foundation-rails'
 
 
 group :development, :test do
