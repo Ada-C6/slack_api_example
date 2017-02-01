@@ -1,4 +1,3 @@
-
 require 'httparty'
 
 class SlackApiWrapper
@@ -50,4 +49,3 @@ class SlackApiWrapper
      return nil
     end
   end
-end
