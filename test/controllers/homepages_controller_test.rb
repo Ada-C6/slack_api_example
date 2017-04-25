@@ -1,19 +1,19 @@
 require 'test_helper'
 
-class HomepagesControllerTest < ActionController::TestCase
-  test "should get index" do
-    get :index
-    assert_response :success
+describe HomepagesController do
+  it "should get index" do
+    get homepages_index_path
+    must_respond_with :success
   end
 
-  test "should get new" do
-    get :new
-    assert_response :success
+  it "should get new" do
+    get homepages_new_path
+    must_respond_with :success
   end
 
-  test "should get create" do
-    get :create
-    assert_response :success
+  it "should get create" do
+    get homepages_create_path
+    must_respond_with :success
   end
 
 end
